@@ -2,9 +2,17 @@
     padding: 7% 15%
 }
 body{
-    
-    
+
+  /* Navbar styling */
 }
+.navtitle {
+  text-decoration: underline ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: orange;
+} 
+    
+
 
 /* Index */
 #headerdownload {
@@ -60,6 +68,7 @@ p {
 }
 
 /* Add a pointer when hovering over the thumbnail images */
+
 .cursor {
   cursor: pointer;
 }
@@ -125,6 +134,8 @@ user-select: none;
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
+  
+
 }
 
 .active,
@@ -133,4 +144,5 @@ user-select: none;
 }
 .demo cursor {
   white-space:pre
+  
 } 
